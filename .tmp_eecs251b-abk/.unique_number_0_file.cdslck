@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eecs251b-abk
+HostName                       eda-2.EECS.Berkeley.EDU
+ProcessIdentifier              393916
+ProcessCreationTime_UTC        1745552393
+ProcessCreationTime_Readable   Thu Apr 24 20:39:53 2025 PDT
+AppIdentifier                  /share/instsww/cadence/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/.tmp_eecs251b-abk/.unique_number_0_file
+TimeEditLocked                 Thu Apr 24 20:42:52 2025 PDT
