@@ -1,6 +1,0 @@
-[ADE GUI: 1d790282-2169-4134-95db-e358c21013b4]
-[2025-04-24 20:42:52.898 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - /scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/.tmp_eecs251b-abk/.cmddir0/swiftLoggingService0 is starting {"logfile": "/scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/logs_eecs251b-abk/logs0/LoggingService0.log"}
-[2025-04-24 20:42:53.039 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - /scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/.tmp_eecs251b-abk/.cmddir0/swiftNetlistService1 is starting {"logfile": "/scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/logs_eecs251b-abk/logs0/Service1.log"}
-[2025-04-24 20:42:53.040 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '417683' is starting up on host 'eda-2.EECS.Berkeley.EDU' {"logfile": "/scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/logs_eecs251b-abk/logs0/LoggingService0.log"}
-[2025-04-24 20:42:53.861 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '417705' is starting up on host 'eda-2.EECS.Berkeley.EDU' {"logfile": "/scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/logs_eecs251b-abk/logs0/Service1.log"}
-[2025-04-24 20:43:01.026 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '417683' stopped with exit code '0' {"logfile": "/scratch/eecs251b-abk/eecs251b_sp25_rx_ams_afe/logs_eecs251b-abk/logs0/LoggingService0.log"}
