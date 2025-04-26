@@ -4,3 +4,5 @@
 data.dm
 libManager.log.cdslck
 .oalib
+logs_*
+.tmp_*
