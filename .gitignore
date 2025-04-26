@@ -1,3 +1,6 @@
 # Add any files that don't need to pass through git here.
 *.log*
 *.history
+data.dm
+libManager.log.cdslck
+.oalib
