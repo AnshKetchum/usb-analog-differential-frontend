@@ -3,8 +3,8 @@
 	<Test Name="rx_ams_afe_from33To12LogicLevelShifter_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="projectDir" Type="string">"/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro/.tmpADEDir_eecs251b-aan/rx_ams_afe_from33To12LogicLevelShifter_1/simulation"</field>
-			<field Name="designInfo" Type="list">("rx_ams_afe" "from33To12LogicLevelShifter" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/from33To18LogicLevelShifter/maestro/results/maestro/.tmpADEDir_eecs251b-aan/rx_ams_afe_from33To12LogicLevelShifter_1/simulation"</field>
+			<field Name="designInfo" Type="list">("rx_ams_afe" "from33To18LogicLevelShifter" "schematic" "spectre")</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="nil" Type="skillTable">asiEnvSaveTable</component>

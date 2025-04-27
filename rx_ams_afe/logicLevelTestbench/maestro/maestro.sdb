@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>rx_ams_afe_from33To12LogicLevelShifter_1
+			<test>rx_ams_afe_from33To12LLTestbench_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>from33To12LogicLevelShifter</value>
+						<value>logicLevelTestbench</value>
 					</option>
 					<option>lib
 						<value>rx_ams_afe</value>
@@ -31,16 +31,13 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>VIN
-						<value>3.3</value>
+					<var>VDD
+						<value>1.8</value>
 					</var>
 				</vars>
+				<origoptions></origoptions>
 			</test>
 		</tests>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
-		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">rx_ams_afe_from33To12LogicLevelShifter_1</test>
-		</checksasserts>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -48,6 +45,10 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">rx_ams_afe_from33To12LLTestbench_1</test>
+		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
@@ -97,11 +98,11 @@
 				<sharedvarinfo></sharedvarinfo>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>rx_ams_afe_from33To12LogicLevelShifter_1
+					<test>rx_ams_afe_from33To12LLTestbench_1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
-								<value>from33To12LogicLevelShifter</value>
+								<value>logicLevelTestbench</value>
 							</option>
 							<option>lib
 								<value>rx_ams_afe</value>
@@ -120,16 +121,13 @@
 							</option>
 						</tooloptions>
 						<vars>
-							<var>VIN
-								<value>3.3</value>
+							<var>VDD
+								<value>1.8</value>
 							</var>
 						</vars>
+						<origoptions></origoptions>
 					</test>
 				</tests>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">rx_ams_afe_from33To12LogicLevelShifter_1</test>
-				</checksasserts>
 				<extensions>
 					<extension>Parasitics
 						<callback>_parSetupDBExtensionCB</callback>
@@ -137,6 +135,10 @@
 						<icontype></icontype>
 					</extension>
 				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">rx_ams_afe_from33To12LLTestbench_1</test>
+				</checksasserts>
 				<plottingoptions>
 					<plottingoption>plottype
 						<value>Auto</value>
@@ -227,16 +229,16 @@
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<runnabletests>
-					<test>rx_ams_afe_from33To12LogicLevelShifter_1</test>
+					<test>rx_ams_afe_from33To12LLTestbench_1</test>
 				</runnabletests>
 				<disabledtests></disabledtests>
 				<vars></vars>
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 26 23:53:14 2025</timestamp>
-			<uuid>{eca7a74f-a867-44d8-85da-1199683321fa}</uuid>
-			<resultsname>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Apr 27 11:55:10 2025</timestamp>
+			<uuid>{0a6e8d0b-f98c-451a-869c-d0a66f7c3357}</uuid>
+			<resultsname>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/logicLevelTestbench/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -244,12 +246,12 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_235314356</localpsfdir>
-			<psfdir>/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro/ExplorerRun.0</simdir>
+			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_115510826</localpsfdir>
+			<psfdir>/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/logicLevelTestbench/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/rx_ams_afe/logicLevelTestbench/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/from33To12LogicLevelShifter/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<loggingdatabasedir>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/logicLevelTestbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/logicLevelTestbench/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
