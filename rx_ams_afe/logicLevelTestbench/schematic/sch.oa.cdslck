@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sun Apr 27 11:32:11 2025 PDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/afe/schematic/sch.oa.cdslck
-TimeEditLocked                 Sun Apr 27 11:56:01 2025 PDT
+FilePathUsedToEditLock         /scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/logicLevelTestbench/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Apr 27 11:54:38 2025 PDT
