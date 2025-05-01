@@ -35,13 +35,31 @@
 						<value>2.4G</value>
 					</var>
 					<var>delay
-						<value>0</value>
+						<value>0.25/fclk</value>
 					</var>
 					<var>VDD
 						<value>3.3</value>
 					</var>
 					<var>VSS
 						<value>0</value>
+					</var>
+					<var>ACCESS_NMOS_LENGTH
+						<value>150n</value>
+					</var>
+					<var>ACCESS_NMOS_WIDTH
+						<value>420n</value>
+					</var>
+					<var>CROSS_COUPLED_NMOS_LENGTH
+						<value>150n</value>
+					</var>
+					<var>CROSS_COUPLED_NMOS_WIDTH
+						<value>420n</value>
+					</var>
+					<var>CROSS_COUPLED_PMOS_LENGTH
+						<value>150n</value>
+					</var>
+					<var>CROSS_COUPLED_PMOS_WIDTH
+						<value>1100n</value>
 					</var>
 				</vars>
 				<outputs>
@@ -141,13 +159,31 @@
 								<value>2.4G</value>
 							</var>
 							<var>delay
-								<value>0</value>
+								<value>0.25/fclk</value>
 							</var>
 							<var>VDD
 								<value>3.3</value>
 							</var>
 							<var>VSS
 								<value>0</value>
+							</var>
+							<var>ACCESS_NMOS_LENGTH
+								<value>150n</value>
+							</var>
+							<var>ACCESS_NMOS_WIDTH
+								<value>420n</value>
+							</var>
+							<var>CROSS_COUPLED_NMOS_LENGTH
+								<value>150n</value>
+							</var>
+							<var>CROSS_COUPLED_NMOS_WIDTH
+								<value>420n</value>
+							</var>
+							<var>CROSS_COUPLED_PMOS_LENGTH
+								<value>150n</value>
+							</var>
+							<var>CROSS_COUPLED_PMOS_WIDTH
+								<value>1100n</value>
 							</var>
 						</vars>
 						<outputs>
@@ -268,8 +304,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 30 17:11:26 2025</timestamp>
-			<uuid>{68e3a010-3591-433f-a48e-4394be54f2fc}</uuid>
+			<timestamp>Apr 30 17:40:30 2025</timestamp>
+			<uuid>{96812b50-e056-497c-9691-27ba9b440130}</uuid>
 			<resultsname>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -278,7 +314,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_171126080</localpsfdir>
+			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_174030232</localpsfdir>
 			<psfdir>/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
