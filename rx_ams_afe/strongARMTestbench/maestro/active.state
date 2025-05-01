@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC6.1.8-64b.500.35" modifiedTime="04/30/2025 18:55:49" version="5">active
+<statedb ICVersion="IC6.1.8-64b.500.35" modifiedTime="04/30/2025 19:11:04" version="5">active
 	<Test Name="rx_ams_afe_strongARMTestbench_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
@@ -1276,54 +1276,74 @@
 		<component Name="variables" Type="skillTable">variableTable
 			<field Name="saveComponent" Type="skillList">
 				<field Name="saveComponent_0" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"ACCESS_NMOS_LENGTH"</field>
+					<field Name="name" Type="string">"INNER_PRECHARGE_LENGTH"</field>
 					<field Name="expression" Type="string">"150n"</field>
 					<field Name="index" Type="fixnum">1</field>
 				</field>
 				<field Name="saveComponent_1" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"ACCESS_NMOS_WIDTH"</field>
-					<field Name="expression" Type="string">"420n"</field>
+					<field Name="name" Type="string">"INNER_PRECHARGE_WIDTH"</field>
+					<field Name="expression" Type="string">"550n"</field>
 					<field Name="index" Type="fixnum">2</field>
 				</field>
 				<field Name="saveComponent_2" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"CROSS_COUPLED_NMOS_LENGTH"</field>
+					<field Name="name" Type="string">"OUTER_PRECHARGE_LENGTH"</field>
 					<field Name="expression" Type="string">"150n"</field>
 					<field Name="index" Type="fixnum">3</field>
 				</field>
 				<field Name="saveComponent_3" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"CROSS_COUPLED_NMOS_WIDTH"</field>
-					<field Name="expression" Type="string">"420n"</field>
+					<field Name="name" Type="string">"OUTER_PRECHARGE_WIDTH"</field>
+					<field Name="expression" Type="string">"550n"</field>
 					<field Name="index" Type="fixnum">4</field>
 				</field>
 				<field Name="saveComponent_4" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"CROSS_COUPLED_PMOS_LENGTH"</field>
+					<field Name="name" Type="string">"ACCESS_NMOS_LENGTH"</field>
 					<field Name="expression" Type="string">"150n"</field>
 					<field Name="index" Type="fixnum">5</field>
 				</field>
 				<field Name="saveComponent_5" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"CROSS_COUPLED_PMOS_WIDTH"</field>
-					<field Name="expression" Type="string">"800n"</field>
+					<field Name="name" Type="string">"ACCESS_NMOS_WIDTH"</field>
+					<field Name="expression" Type="string">"420n"</field>
 					<field Name="index" Type="fixnum">6</field>
 				</field>
 				<field Name="saveComponent_6" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"fclk"</field>
-					<field Name="expression" Type="string">"2.4G"</field>
+					<field Name="name" Type="string">"CROSS_COUPLED_NMOS_LENGTH"</field>
+					<field Name="expression" Type="string">"150n"</field>
 					<field Name="index" Type="fixnum">7</field>
 				</field>
 				<field Name="saveComponent_7" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"VDD"</field>
-					<field Name="expression" Type="string">"3.3"</field>
+					<field Name="name" Type="string">"CROSS_COUPLED_NMOS_WIDTH"</field>
+					<field Name="expression" Type="string">"420n"</field>
 					<field Name="index" Type="fixnum">8</field>
 				</field>
 				<field Name="saveComponent_8" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"VSS"</field>
-					<field Name="expression" Type="string">"0"</field>
+					<field Name="name" Type="string">"CROSS_COUPLED_PMOS_LENGTH"</field>
+					<field Name="expression" Type="string">"150n"</field>
 					<field Name="index" Type="fixnum">9</field>
 				</field>
 				<field Name="saveComponent_9" Type="defstruct">sevVariableStruct
+					<field Name="name" Type="string">"CROSS_COUPLED_PMOS_WIDTH"</field>
+					<field Name="expression" Type="string">"800n"</field>
+					<field Name="index" Type="fixnum">10</field>
+				</field>
+				<field Name="saveComponent_10" Type="defstruct">sevVariableStruct
+					<field Name="name" Type="string">"fclk"</field>
+					<field Name="expression" Type="string">"2.4G"</field>
+					<field Name="index" Type="fixnum">11</field>
+				</field>
+				<field Name="saveComponent_11" Type="defstruct">sevVariableStruct
+					<field Name="name" Type="string">"VDD"</field>
+					<field Name="expression" Type="string">"3.3"</field>
+					<field Name="index" Type="fixnum">12</field>
+				</field>
+				<field Name="saveComponent_12" Type="defstruct">sevVariableStruct
+					<field Name="name" Type="string">"VSS"</field>
+					<field Name="expression" Type="string">"0"</field>
+					<field Name="index" Type="fixnum">13</field>
+				</field>
+				<field Name="saveComponent_13" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"delay"</field>
 					<field Name="expression" Type="string">"0.25/fclk"</field>
-					<field Name="index" Type="fixnum">10</field>
+					<field Name="index" Type="fixnum">14</field>
 				</field>
 			</field>
 		</component>
