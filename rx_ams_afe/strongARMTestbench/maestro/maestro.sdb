@@ -328,8 +328,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 1 20:23:39 2025</timestamp>
-			<uuid>{c6deeab9-05aa-4848-81ad-6c6797315467}</uuid>
+			<timestamp>May 1 20:30:44 2025</timestamp>
+			<uuid>{a9ca5b0d-f500-4cad-8438-0d5f4354897f}</uuid>
 			<resultsname>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -338,7 +338,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_202339722</localpsfdir>
+			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_203044141</localpsfdir>
 			<psfdir>/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
