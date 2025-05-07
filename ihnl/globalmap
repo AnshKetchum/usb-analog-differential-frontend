@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+rx_ams_afe/strongARMLatch/schematic strongARMLatch
+$endmodel
+$net
+$endnet
+$param
+$endparam
