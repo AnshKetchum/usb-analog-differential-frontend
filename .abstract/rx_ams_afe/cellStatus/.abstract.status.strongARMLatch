@@ -1,0 +1,6 @@
+cUiSelectCellP {strongARMLatch}
+cUiSetViewStatus {strongARMLatch} {layout} {1}
+cUiSetViewStatus {strongARMLatch} {logical} {1}
+cUiSetViewStatus {strongARMLatch} {abstract.pin} {3}
+cUiSetViewStatus {strongARMLatch} {abstract.ext} {1}
+cUiSetViewStatus {strongARMLatch} {abstract} {1}
