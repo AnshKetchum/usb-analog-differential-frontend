@@ -7,3 +7,4 @@ libManager.log.cdslck
 logs_*
 .tmp_*
 drc
+lvs

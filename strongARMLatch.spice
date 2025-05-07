@@ -1,0 +1,43 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  rx_ams_afe
+* Top Cell Name: strongARMLatch
+* View Name:     schematic
+* Netlisted on:  May  4 13:45:00 2025
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: rx_ams_afe
+* Cell Name:    strongARMLatch
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT strongARMLatch VDD VSS Vinn Vinp Voutn Voutp clk
+*.PININFO Vinn:I Vinp:I clk:I Voutn:O Voutp:O VDD:B VSS:B
+MNM4 net1 Vinn net3 VSS nfet_01v8 W=420n L=150n M=1
+MNM3 net4 Vinp net3 VSS nfet_01v8 W=420n L=150n M=1
+MNM2 Voutn Voutp net4 VSS nfet_01v8 W=420n L=150n M=1
+MNM1 net3 clk VSS VSS nfet_01v8 W=420n L=150n M=1
+MNM0 Voutp Voutn net1 VSS nfet_01v8 W=420n L=150n M=1
+MPM5 net4 clk VDD VDD pfet_01v8 W=420n L=150n M=1
+MPM4 Voutn clk VDD VDD pfet_01v8 W=420n L=150n M=1
+MPM3 Voutn Voutp VDD VDD pfet_01v8 W=550n L=150n M=1
+MPM2 Voutp Voutn VDD VDD pfet_01v8 W=420n L=150n M=1
+MPM1 Voutp clk VDD VDD pfet_01v8 W=420n L=150n M=1
+MPM0 net1 clk VDD VDD pfet_01v8 W=420n L=150n M=1
+.ENDS
+
