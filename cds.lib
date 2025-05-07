@@ -3,4 +3,4 @@ DEFINE     basic        $CDSHOME/tools/dfII/etc/cdslib/basic
 DEFINE sky130_fd_pr_main /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.3/libs/sky130_fd_pr_main
 DEFINE sky130_scl_9T /home/ff/eecs251b/sky130/sky130_cds/sky130_scl_9T_0.0.3/oa/sky130_scl_9T
 
-DEFINE rx_ams_afe $ROOT_DIR/rx_ams_afe
+DEFINE rx_ams_afe /scratch/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe
