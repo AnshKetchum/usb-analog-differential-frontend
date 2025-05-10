@@ -1,0 +1,5 @@
+cUiSetViewStatus {from33To18LogicLevelShifter} {layout} {0}
+cUiSetViewStatus {from33To18LogicLevelShifter} {logical} {0}
+cUiSetViewStatus {from33To18LogicLevelShifter} {abstract.pin} {0}
+cUiSetViewStatus {from33To18LogicLevelShifter} {abstract.ext} {0}
+cUiSetViewStatus {from33To18LogicLevelShifter} {abstract} {0}

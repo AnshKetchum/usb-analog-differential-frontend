@@ -1,0 +1,294 @@
+*
+*
+*
+*                       LINUX           Tue May  6 23:37:57 2025
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - Quantus - (64-bit)
+*  Version        : 22.1.1-p041
+*  Build Date     : Mon Apr 17 07:36:05 PDT 2023
+*
+*  HSPICE LIBRARY
+*
+*  OPERATING_TEMPERATURE 25
+*  QRC_TECH_DIR /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.4/quantus/extraction/typical 
+*
+*
+*
+
+*
+.SUBCKT strongARMLatch Vinn Vinp VDD Voutn Voutp VSS clk
+*
+*
+*  caps2d version: 10
+*
+*
+*       TRANSISTOR CARDS
+*
+*
+MNM3	net4#5	Vinp#1	net3#7	VSS	nfet_01v8	L=1.5e-07
++ W=4.2e-07
+MNM4	net1#7	Vinn#1	net3	VSS	nfet_01v8	L=1.5e-07
++ W=4.2e-07
+MNM2	Voutn#14	Voutp#3	net4	VSS	nfet_01v8
++ L=1.5e-07	W=4.2e-07
+MNM1	net3#4	clk#9	VSS#3	VSS	nfet_01v8	L=1.5e-07
++ W=4.2e-07
+MNM0	Voutp#11	Voutn#3	net1#4	VSS	nfet_01v8
++ L=1.5e-07	W=4.2e-07
+MPM2	Voutp#10	Voutn#1	VDD#6	VDD	pfet_01v8
++ L=1.5e-07	W=5.5e-07
+MPM4	Voutn#15	clk#5	VDD#25	VDD	pfet_01v8	L=1.5e-07
++ W=5.5e-07
+MPM3	Voutn#12	Voutp#1	VDD#20	VDD	pfet_01v8
++ L=1.5e-07	W=5.5e-07
+MPM0	net1	clk#1	VDD#4	VDD	pfet_01v8	L=1.5e-07
++ W=5.5e-07
+MPM5	net4#7	clk#7	VDD#28	VDD	pfet_01v8	L=1.5e-07
++ W=5.5e-07
+MPM1	Voutp#15	clk#3	VDD#13	VDD	pfet_01v8	L=1.5e-07
++ W=5.5e-07
+*
+*
+*       RESISTOR AND CAP/DIODE CARDS
+*
+Rg2	clk#1	clk#16	295.212769	$poly
+Rg4	Vinn#1	Vinn#4	399.117340	$poly
+Rg6	Voutn#1	Voutn#7	703.212830	$poly
+Rg7	Voutn#7	Voutn#8	156.374542	$poly
+Rg8	Voutn#7	Voutn#3	258.319611	$poly
+Rg11	clk#3	clk#17	182.929123	$poly
+Rg13	clk#9	clk#18	408.275146	$poly
+Rg15	Vinp#1	Vinp#4	335.673706	$poly
+Rg17	Voutp#3	Voutp#7	377.749969	$poly
+Rg18	Voutp#7	Voutp#8	242.338638	$poly
+Rg19	Voutp#7	Voutp#1	490.647705	$poly
+Rg22	clk#5	clk#19	278.583252	$poly
+Rg24	clk#7	clk#20	269.236816	$poly
+Rf2	VDD#3	VDD#5	0.116364	$li
+Rf3	VDD#4	VDD#5	15.000000	$li
+Rf4	net1#2	net1#3	0.711111	$li
+Rf5	net1	net1#2	15.000000	$li
+Rf6	clk#16	clk#22	15.000000	$li
+Rf7	Vinn#4	Vinn#6	15.000000	$li
+Rf8	Voutn#8	Voutn#10	15.000000	$li
+Rf9	net3	net3#2	15.457143	$li
+Rf10	VDD#7	VDD#8	1.066667	$li
+Rf11	VDD#6	VDD#7	15.000000	$li
+Rf12	net1#5	net1#6	0.711111	$li
+Rf13	net1#4	net1#5	15.000000	$li
+Rf14	net1#8	net1#9	0.914286	$li
+Rf15	net1#7	net1#8	15.000000	$li
+Rf17	Voutp#9	Voutp#10	15.232727	$li
+Rf19	Voutp#12	Voutp#13	0.345946	$li
+Rf20	Voutp#11	Voutp#12	15.000000	$li
+Rf21	clk#18	clk#24	15.000000	$li
+Rf22	VDD#13	VDD#14	167.930908	$li
+Rf23	clk#17	clk#26	15.000000	$li
+Rf24	Voutp#14	Voutp#16	0.984615	$li
+Rf25	Voutp#15	Voutp#16	15.000000	$li
+Rf28	VSS#4	VSS#5	0.355556	$li
+Rf29	VSS#3	VSS#4	15.000000	$li
+Rf30	net3#3	net3#5	0.336842	$li
+Rf31	net3#4	net3#5	15.000000	$li
+Rf32	Vinp#4	Vinp#6	15.000000	$li
+Rf33	Voutp#8	Voutp#18	15.000000	$li
+Rf35	net3#6	net3#8	1.010526	$li
+Rf36	net3#7	net3#8	15.000000	$li
+Rf37	VDD#19	VDD#21	1.097143	$li
+Rf38	VDD#20	VDD#21	15.000000	$li
+Rf39	net4#2	net4#3	0.731429	$li
+Rf40	net4	net4#2	15.000000	$li
+Rf41	net4#4	net4#5	17.194286	$li
+Rf42	Voutn#11	Voutn#12	15.752941	$li
+Rf43	Voutn#13	Voutn#14	15.376471	$li
+Rf45	VDD#24	VDD#26	0.731429	$li
+Rf46	VDD#25	VDD#26	15.000000	$li
+Rf47	Voutn#16	Voutn#17	0.116364	$li
+Rf48	Voutn#15	Voutn#16	15.000000	$li
+Rf49	clk#19	clk#28	15.000000	$li
+Rf50	VDD#27	VDD#29	0.698182	$li
+Rf51	VDD#28	VDD#29	15.000000	$li
+Rf52	net4#6	net4#8	0.345946	$li
+Rf53	net4#7	net4#8	15.000000	$li
+Rf54	clk#20	clk#30	15.000000	$li
+Re1	Vinn#6	Vinn	152.403366	$metal1
+Re2	clk#31	clk#22	152.426376	$metal1
+Re3	Voutn#10	Voutn#19	152.778122	$metal1
+Re4	net1#9	net1#11	153.920715	$metal1
+Re5	net1#11	net1#3	157.047028	$metal1
+Re6	net1#11	net1#6	152.542740	$metal1
+Re7	clk#33	clk#24	152.747879	$metal1
+Re8	Voutp	Voutp#19	0.120167	$metal1
+Re9	Voutp#19	Voutp#20	1.236843	$metal1
+Re10	Voutp#20	Voutp#9	152.533157	$metal1
+Re11	Voutp#19	Voutp#22	0.218043	$metal1
+Re12	Voutp#22	Voutp#13	152.875702	$metal1
+Re13	Voutp#20	Voutp#14	155.617737	$metal1
+Re14	Voutp#22	Voutp#25	0.287843	$metal1
+Re15	VSS#5	VSS#1	152.354980	$metal1
+Re16	VSS#1	VSS	0.025862	$metal1
+Re17	clk#35	clk#26	152.871353	$metal1
+Re18	Vinp	Vinp#6	152.320404	$metal1
+Re19	Voutp#26	Voutp#18	152.588654	$metal1
+Re20	net3#6	net3#10	153.630630	$metal1
+Re21	net3#10	net3#2	154.487183	$metal1
+Re22	net3#10	net3#3	153.035950	$metal1
+Re23	Voutn	Voutn#20	0.341644	$metal1
+Re24	Voutn#20	Voutn#21	0.627941	$metal1
+Re25	Voutn#21	Voutn#22	0.507461	$metal1
+Re26	Voutn#22	Voutn#11	152.779007	$metal1
+Re27	Voutn#20	Voutn#13	153.068329	$metal1
+Re28	Voutn#21	Voutn#25	0.197416	$metal1
+Re29	Voutn#22	Voutn#17	156.913300	$metal1
+Re30	clk#37	clk#28	153.056702	$metal1
+Re31	net4#6	net4#10	158.287216	$metal1
+Re32	net4#10	net4#3	153.323746	$metal1
+Re33	net4#10	net4#4	153.471024	$metal1
+Re34	clk#39	clk#30	152.777573	$metal1
+Re36	VDD#33	VDD#34	0.817630	$metal1
+Re37	VDD#34	VDD#35	1.049796	$metal1
+Re38	VDD#35	VDD#36	1.889118	$metal1
+Re40	VDD#33	VDD#38	1.606031	$metal1
+Re41	VDD#38	VDD#27	152.707916	$metal1
+Re42	VDD#34	VDD#40	1.776252	$metal1
+Re43	VDD#40	VDD#24	152.569305	$metal1
+Re44	VDD#35	VDD#42	0.925658	$metal1
+Re45	VDD#42	VDD#14	0.372510	$metal1
+Re46	VDD#14	VDD#44	1.235279	$metal1
+Re47	VDD#44	VDD#8	152.141998	$metal1
+Re48	VDD#35	VDD#9	0.823864	$metal1
+Re49	VDD#9	VDD	0.065217	$metal1
+Re50	VDD#36	VDD#3	152.555420	$metal1
+Re53	VDD#42	VDD#50	0.727611	$metal1
+Re54	VDD#50	VDD#51	1.483750	$metal1
+Re55	VDD#51	VDD#19	152.562607	$metal1
+Re59	clk#41	clk	0.777681	$metal1
+Rd1	Voutp#26	Voutp#25	9.870793	$metal2
+Rd2	Voutn#25	Voutn#19	10.784375	$metal2
+Rd4	clk#43	clk#44	0.762243	$metal2
+Rd5	clk#44	clk#45	0.609922	$metal2
+Rd6	clk#45	clk#46	1.980306	$metal2
+Rd7	clk#46	clk#31	6.111735	$metal2
+Rd8	clk#43	clk#48	1.158133	$metal2
+Rd9	clk#48	clk#49	1.280468	$metal2
+Rd10	clk#49	clk#33	9.949193	$metal2
+Rd11	clk#44	clk#37	4.794163	$metal2
+Rd13	clk#46	clk#35	5.198628	$metal2
+Rd14	clk#48	clk#41	4.529704	$metal2
+Rd15	clk#49	clk#39	4.980210	$metal2
+*
+*       CAPACITOR CARDS
+*
+*
+C1	Vinn	VSS	8.09766e-17
+C2	Vinp	VSS	6.15645e-17
+C3	VDD	VSS	1.90959e-16
+C4	Voutn	VSS	9.09418e-17
+C5	Voutp	VSS	5.28887e-17
+C6	clk	VSS	2.19412e-16
+C7	net1	VSS	5.87427e-17
+C8	net4	VSS	4.83455e-17
+C9	clk#7	VSS	4.27092e-17
+C10	clk#5	VSS	3.5114e-17
+C11	Voutp#1	VSS	3.58696e-17
+C12	clk#3	VSS	2.96155e-17
+C13	Voutn#1	VSS	4.27736e-17
+C14	clk#1	VSS	3.97227e-17
+C15	Voutp#3	VSS	3.88178e-17
+C16	Vinp#1	VSS	3.17861e-17
+C17	clk#9	VSS	3.31717e-17
+C18	Voutn#3	VSS	3.40765e-17
+C19	Vinn#1	VSS	4.25775e-17
+C20	clk#41	VSS	6.33698e-16
+C21	clk#39	VSS	3.98992e-16
+C22	clk#37	VSS	1.01171e-16
+C23	Voutn#25	VSS	2.88389e-16
+C24	Voutp#26	VSS	1.42714e-16
+C25	clk#35	VSS	1.56313e-16
+C26	Voutp#25	VSS	1.16038e-16
+C27	clk#33	VSS	1.45797e-15
+C28	Voutn#19	VSS	4.89283e-16
+C29	clk#31	VSS	4.27779e-16
+C30	clk#20	VSS	4.175e-17
+C31	clk#19	VSS	3.87086e-17
+C32	Voutp#8	VSS	3.57672e-17
+C33	Vinp#4	VSS	3.7003e-17
+C34	clk#17	VSS	5.37852e-17
+C35	clk#18	VSS	3.83813e-17
+C36	Voutn#8	VSS	4.31483e-17
+C37	Vinn#4	VSS	3.40958e-17
+C38	clk#16	VSS	3.8914e-17
+C39	clk#30	VSS	1.06479e-16
+C40	net4#6	VSS	6.17786e-16
+C41	VDD#27	VSS	3.29056e-16
+C42	clk#28	VSS	6.76439e-17
+C43	Voutn#17	VSS	5.02211e-16
+C44	VDD#24	VSS	9.50759e-17
+C45	Voutn#13	VSS	1.60346e-16
+C46	Voutn#11	VSS	7.12728e-17
+C47	net4#4	VSS	2.64933e-16
+C48	net4#3	VSS	1.7389e-16
+C49	VDD#19	VSS	8.29526e-17
+C50	net3#6	VSS	2.09829e-16
+C51	Voutp#18	VSS	6.98992e-17
+C52	Vinp#6	VSS	7.27127e-17
+C53	net3#3	VSS	1.29783e-16
+C54	Voutp#14	VSS	4.94106e-16
+C55	clk#26	VSS	1.01416e-16
+C56	VDD#14	VSS	8.85101e-16
+C57	clk#24	VSS	1.36443e-16
+C58	Voutp#13	VSS	1.1046e-16
+C59	Voutp#9	VSS	9.09254e-17
+C60	VDD#9	VSS	1.13166e-16
+C61	net1#9	VSS	2.58202e-16
+C62	net1#6	VSS	1.15946e-16
+C63	VDD#8	VSS	1.82283e-16
+C64	net3#2	VSS	2.99488e-16
+C65	Voutn#10	VSS	1.14715e-16
+C66	Vinn#6	VSS	7.41146e-17
+C67	clk#22	VSS	1.16361e-16
+C68	net1#3	VSS	8.49507e-16
+C69	VDD#3	VSS	7.97273e-17
+C70	net4#7	VSS	8.40016e-17
+C71	Voutn#15	VSS	5.16313e-17
+C72	Voutn#12	VSS	5.0543e-17
+C73	VDD#20	VSS	4.62441e-17
+C74	Voutp#15	VSS	7.76274e-17
+C75	Voutp#10	VSS	6.37803e-17
+C76	Voutn#14	VSS	4.69244e-17
+C77	net3#7	VSS	4.59622e-17
+C78	net3#4	VSS	4.13874e-17
+C79	Voutp#11	VSS	4.82568e-17
+C80	net1#7	VSS	4.92234e-17
+C81	net1#11	VSS	1.05428e-15
+C82	Voutp#19	VSS	1.66275e-16
+C83	Voutp#20	VSS	5.74666e-16
+C84	Voutp#22	VSS	1.12824e-16
+C85	net3#10	VSS	5.34328e-16
+C86	Voutn#20	VSS	1.68028e-16
+C87	Voutn#21	VSS	9.87933e-17
+C88	Voutn#22	VSS	5.82502e-16
+C89	net4#10	VSS	7.9096e-16
+C90	VDD#33	VSS	7.69348e-16
+C91	VDD#34	VSS	9.36839e-16
+C92	VDD#35	VSS	1.36281e-15
+C93	VDD#36	VSS	5.34399e-16
+C94	VDD#38	VSS	2.3796e-15
+C95	VDD#40	VSS	4.51862e-16
+C96	VDD#42	VSS	1.41796e-15
+C97	VDD#44	VSS	5.66858e-16
+C98	VDD#50	VSS	1.15331e-15
+C99	VDD#51	VSS	5.34709e-16
+C100	clk#43	VSS	1.14573e-15
+C101	clk#44	VSS	1.53497e-16
+C102	clk#45	VSS	3.73871e-16
+C103	clk#46	VSS	6.14032e-16
+C104	clk#49	VSS	1.57902e-15
+*
+*
+.ENDS strongARMLatch
+*

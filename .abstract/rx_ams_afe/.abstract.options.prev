@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abstract Options File
-;; Abstract_Generator version sub-version  IC6.1.8-64b.500.35  on May  7 00:32:16 2025
+;; Abstract_Generator version sub-version  IC6.1.8-64b.500.35  on May  7 00:34:03 2025
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 absSetOption( "DateTimeLog"                "false")
@@ -225,7 +225,7 @@ absSetBinOption( "Core" "AbstractAdjustCreateClassBumpPort" "false")
 absSetBinOption( "Core" "AbstractAdjustPreserveViasPwr" "false")
 absSetBinOption( "Core" "AbstractAdjustDuplicatePinShapes" "false")
 absSetBinOption( "Core" "AbstractBlockageLayerOrder" "false")
-absSetBinOption( "Core" "AbstractBlockageDetailedLayers" "met1 met2 met3 met4 met5 mcon via via2 via3 via4 ")
+absSetBinOption( "Core" "AbstractBlockageDetailedLayers" "met1 met2 met3 met4 met5 mcon via via2 via3 via4 li1 ")
 absSetBinOption( "Core" "AbstractBlockageCoverLayers" "")
 absSetBinOption( "Core" "AbstractBlockageShrinkWrapLayers" "")
 absSetBinOption( "Core" "AbstractBlockageCoverLayersDist" "")
@@ -234,7 +234,7 @@ absSetBinOption( "Core" "AbstractBlockageShrinkAdjust" "")
 absSetBinOption( "Core" "AbstractBlockagePinCutWindow" "")
 absSetBinOption( "Core" "AbstractBlockageCutForAboveLayers" "")
 absSetBinOption( "Core" "AbstractBlockageDownPinCutWindow" "")
-absSetBinOption( "Core" "AbstractBlockageCutAroundPin" "met1 met2 met3 met4 met5 mcon via via2 via3 via4 ")
+absSetBinOption( "Core" "AbstractBlockageCutAroundPin" "met1 met2 met3 met4 met5 mcon via via2 via3 via4 li1 ")
 absSetBinOption( "Core" "AbstractBlockageMaxRoutingSpace" "")
 absSetBinOption( "Core" "AbstractBlockageCorridorCut" "")
 absSetBinOption( "Core" "AbstractBlockageTable"      "met1 met2 met3 met4 met5 ")
@@ -266,7 +266,7 @@ absSetBinOption( "Core" "AbstractAdjustStairStepWidth" "0.07")
 absSetBinOption( "Core" "AbstractFractureRectilinearShapes" "false")
 absSetBinOption( "Core" "AbstractRemoveRedundantBlockages" "false")
 absSetBinOption( "Core" "AbstractSiteName"           "")
-absSetBinOption( "Core" "AbstractSiteNameDefine"     "")
+absSetBinOption( "Core" "AbstractSiteNameDefine"     "unithd")
 absSetBinOption( "Core" "AbstractSiteArrayPattern"   "false")
 absSetBinOption( "Core" "AbstractSiteArrayCells"     "")
 absSetBinOption( "Core" "AbstractSiteArrayCellsTable" "")
