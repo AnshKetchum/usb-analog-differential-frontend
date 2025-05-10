@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abstract Options File
-;; Abstract_Generator version sub-version  IC6.1.8-64b.500.35  on May  7 00:34:03 2025
+;; Abstract_Generator version sub-version  IC6.1.8-64b.500.35  on May  8 21:08:39 2025
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 absSetOption( "DateTimeLog"                "false")
@@ -38,7 +38,7 @@ absSetOption( "ImportLogicalType"          "LIB")
 absSetOption( "ImportOptionsFile"          "")
 absSetOption( "ImportLIBFiles"             " /scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/characterization/strongARMLatch_FF_n40C_1v95.lib")
 absSetOption( "ImportVerilogFiles"         "")
-absSetOption( "ExportLEFFile"              "abstract.lef")
+absSetOption( "ExportLEFFile"              "strongARMLatch.lef")
 absSetOption( "ExportGeometryLefData"      "true")
 absSetOption( "ExportLEFCellListFile"      "")
 absSetOption( "ExportTechLefData"          "false")

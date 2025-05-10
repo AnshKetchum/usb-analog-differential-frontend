@@ -32,7 +32,7 @@
 				</tooloptions>
 				<vars>
 					<var>fclk
-						<value>1K</value>
+						<value>10K</value>
 					</var>
 					<var>delay
 						<value>0.25/fclk</value>
@@ -59,19 +59,19 @@
 						<value>150n</value>
 					</var>
 					<var>CCP_W
-						<value>420n</value>
+						<value>550n</value>
 					</var>
 					<var>IP_L
 						<value>150n</value>
 					</var>
 					<var>IP_W
-						<value>420n</value>
+						<value>550n</value>
 					</var>
 					<var>OP_L
 						<value>150n</value>
 					</var>
 					<var>OP_W
-						<value>420n</value>
+						<value>550n</value>
 					</var>
 				</vars>
 				<outputs>
@@ -168,7 +168,7 @@
 						</tooloptions>
 						<vars>
 							<var>fclk
-								<value>1K</value>
+								<value>10K</value>
 							</var>
 							<var>delay
 								<value>0.25/fclk</value>
@@ -195,19 +195,19 @@
 								<value>150n</value>
 							</var>
 							<var>CCP_W
-								<value>420n</value>
+								<value>550n</value>
 							</var>
 							<var>IP_L
 								<value>150n</value>
 							</var>
 							<var>IP_W
-								<value>420n</value>
+								<value>550n</value>
 							</var>
 							<var>OP_L
 								<value>150n</value>
 							</var>
 							<var>OP_W
-								<value>420n</value>
+								<value>550n</value>
 							</var>
 						</vars>
 						<outputs>
@@ -328,8 +328,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 1 20:30:44 2025</timestamp>
-			<uuid>{a9ca5b0d-f500-4cad-8438-0d5f4354897f}</uuid>
+			<timestamp>May 8 22:06:26 2025</timestamp>
+			<uuid>{2a9a0dfd-7a4a-4f7b-9211-90ffc4265bdd}</uuid>
 			<resultsname>/scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -338,7 +338,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_203044141</localpsfdir>
+			<localpsfdir>/tmp/eda-2.EECS.Berkeley.EDU_eecs251b-aan_220626185</localpsfdir>
 			<psfdir>/home/cc/eecs251b/sp25/class/eecs251b-aan/simulation/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/rx_ams_afe/strongARMTestbench/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

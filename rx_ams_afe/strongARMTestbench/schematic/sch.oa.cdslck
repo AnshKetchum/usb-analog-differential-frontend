@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eecs251b-aan
+HostName                       eda-2.EECS.Berkeley.EDU
+ProcessIdentifier              3602959
+ProcessCreationTime_UTC        1746397616
+ProcessCreationTime_Readable   Sun May  4 15:26:56 2025 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /scratch/eda-4/eecs251b-aan/project/eecs251b_sp25_rx_ams_afe/rx_ams_afe/strongARMTestbench/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu May  8 21:09:02 2025 PDT
